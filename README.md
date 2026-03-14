@@ -1,26 +1,22 @@
-# Spellchecker-en-Java
+# Spellchecker in Java
+A simple spell checker developed in Java as a final project for the Java Programming Workshop (UNICEN - Faculty of Exact Sciences).
+The system is based on a dictionary of valid words and suggests corrections for misspelled words using different correction strategies.
 
-Corrector ortográfico simple desarrollado en Java como proyecto final del Taller de Programación Java (UNICEN - Facultad de Exactas).
-
-El sistema se basa en un diccionario de palabras válidas y propone sugerencias para palabras mal escritas utilizando distintas estrategias de corrección.
-
-## Funcionalidades
-
-- Tokenización de texto en palabras y no-palabras, preservando espacios y signos
-- Diccionario de palabras válidas con soporte para distintas capitalizaciones
-- Correctores ortográficos:
+## Features
+- Text tokenization into words and non-words, preserving spaces and punctuation
+- Valid word dictionary with support for different capitalizations
+- Spell correctors:
   - FileCorrector
   - SwapCorrector
-  - Levenshtein (distancia de edición uno)
-- Integración completa mediante un SpellChecker
-- Tests unitarios para validar el comportamiento del sistema
+  - Levenshtein (edit distance of one)
+- Full integration via a SpellChecker
+- Unit tests to validate system behavior
 
-## Tecnologías utilizadas
+## Technologies
 - Java
 - Maven
 - JUnit
 - Git / GitHub
 
-## Estado del proyecto
-
-Proyecto académico funcional, con todas las implementaciones requeridas y tests aprobados.
+## Project Status
+Functional academic project with all required implementations completed and tests passing.
